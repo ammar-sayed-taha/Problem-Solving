@@ -26,7 +26,6 @@ void bfs(int start, umapivi & graph, vl &ids, int &val, int &minLen, int &graph_
                 else dist[i]++;
             }
     }
-    return false;
 }
 
 int findShortest(int graph_nodes, vector<int> graph_from, vector<int> graph_to, vector<long> ids, int val) {
